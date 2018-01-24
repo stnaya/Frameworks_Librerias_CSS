@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="css/principal.css"/>
+    <title>Blog de Turismo</title>
+  </head>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <body style="background-image: url('img/fondo.jpg')" >
+
+  <section >
+    <div class="col l12" id="contenido">
+
+
+        <div class="row">
+          <div class="col l2">
+            <a href="#"><img  id='milogo' src='img/logo.jpg' alt="Logo"/></a>
+          </div>
+
+
+
+          <nav class="color blue">
+            <div class="nav-wrapper">
+                <ul class=" right hide-on-med-and-down">
+                  <li class="active"><a href="#"><i class="material-icons left"> home</i>Inicio</a></li>
+                  <li><a href="#fotos"><i class="material-icons left"> image</i>Fotos</a></li>
+                  <li><a href="#historia"><i class="material-icons left"> replay_10</i>Historia</a></li>
+                  <li><a href="#autor"><i class="material-icons left"> person</i>Autor</a></li>
+                </ul>
+              </div>
+            </nav>
+
+            <div class="col l10" >
+                          <h5 id="titulo">Creando Mi Propio Camino</h5>
+            </div>
+
+
+            </div>
+            <div class="row">
+            <div class="col l1" id="redes-sociales">
+                              <a href="#"><img class='' src='img/f.png' alt="Facebook"/></a>
+                              <a href="#"><img class='' src='img/i.png' alt="Instagram"/></a>
+                              <a href="#"><img class='' src='img/t.png' alt="Twitter"/></a>
+                              <a href="#"><img class='' src='img/g.png' alt="Google"/></a>
+                              <a href="#"><img class='' src='img/y.png' alt="Youtube"/></a>
+            </div>
+
+
+
+
+          <div class="col l4">
+            <a name="fotos"></a>
+            <div class="row">
+              <div class="col l12">
+                <img class='responsive-img' src='img/trujillo1.jpg' alt="trujillo1"/>
+              </div>
+              <div class="col l12">
+                <img class='responsive-img' src='img/trujillo3.jpg' alt="trujillo3"/>
+              </div>
+            </div>
+          </div>
+          <div class="col l4">
+            <div class="row">
+              <div class="col l12">
+                <img class='responsive-img center'src='img/trujillo4.jpg' width="100%" alt="trujillo4"/>
+              </div>
+            </div>
+          </div>
+          <div class="col l3 ">
+            <div class="row">
+              <div class="col l12">
+                <img class='responsive-img' src='img/trujillo5.jpg' alt="trujillo5"/>
+              </div>
+              <div class="col l12">
+                <img class='responsive-img' src='img/trujillo6.jpg' alt="trujillo6"/>
+              </div>
+              <div class="col l12">
+                <img class='responsive-img' src='img/trujillo7.jpg' alt="trujillo7"/>
+              </div>
+              <div class="col l12">
+                <img class='responsive-img' src='img/trujillo2.jpg' alt="trujillo2"/>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col l8">
+            <div class=" card hoverable col l12">
+              <div class="">
+                <a name="historia"></a>
+                <h4>Historia</h4>
+                <img id="imgprincipal" class='responsive-img' src='img/trujillo7.jpg' alt="trujillo7"/>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+            </div>
+            <div class="col l12  color blue">
+                  <div class="row">
+                    <h5>Deja tu Comentario</h5>
+                    <div class="input-field col l6">
+                      <i class="material-icons prefix">perm_identity</i>
+                      <input id="nombre" type="text" class="validate">
+                      <label for="nombre" style="color:white">Nombre y Apellido</label>
+                    </div>
+                    <div class="input-field col l6">
+                      <i class="material-icons prefix">vpn_key</i>
+                      <input id="contraseña" type="password" class="validate">
+                      <label for="contraseña" style="color:white">Contraseña</label>
+                    </div>
+                    <div class="input-field col l12">
+                      <i class="material-icons prefix">email</i>
+                      <input id="email" type="email" class="validate">
+                      <label for="email" data-success="Correcto" data-error="Debes completar este Campo" style="color:white">E-Mail</label>
+                    </div>
+                    <div class="input-field col l12 center">
+                      <a class="btn btn-large teal waves-effect" href="#">Enviar</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+          <div class=" card hoverable col l4">
+            <div>
+              <a name="autor"></a>
+
+                  <center><img class="circle responsive-img" src='img/autor.png' style="float: center;" /></center>
+                  <br>
+                  <center><h4>Perfil del Autor</h4></center>
+                  <hr />
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+
+            </div>
+        </div>
+      </div>
+  </section>
+  <footer>
+  </footer>
+  </body>
+</html>
